@@ -86,6 +86,8 @@ public class DashboardFragment extends Fragment {
         });
 
         Button startButton = root.findViewById(R.id.start);
+
+        //Start button
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -99,6 +101,8 @@ public class DashboardFragment extends Fragment {
         });
 
         Button sendButton = root.findViewById(R.id.sendToCar);
+
+        //Send button
         sendButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -109,6 +113,8 @@ public class DashboardFragment extends Fragment {
         });
 
         Button clearButton = root.findViewById(R.id.resetArena);
+
+        //Reset button
         clearButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -124,13 +130,14 @@ public class DashboardFragment extends Fragment {
         drawGrid();
         bindDirectionButtonFunctionality();
 
+        //Listens to RPI message: image-rec (update obstacle ui) or location (update robot location ui)
         mutableMessageQueue.observeForever(messageQueue -> {
             if(messageQueue.getMessages().size() > 0){
                 if(!afterFirstVisit){
                     // only perform all sequential operations if this is the first visit
                     for(Message message : messageQueue.getMessages()){
                         // Use JSON parser to identify message properties
-                        // Example message type: {"cat": "image-rec", "value": {"image_id": "A", "obstacle_id":  "1"}}
+                        // Example message type: {"cat": "image-rec", "value": {"image_id": "11", "obstacle_id":  "1"}}
                         String messageContent = message.content;
                         interpretMessage(messageContent);
                     }
