@@ -199,9 +199,9 @@ public class DashboardFragment extends Fragment {
     }
 
     public Direction getDirectionFromInteger(int d){
-        if(d == 0) return Direction.NORTH;
-        else if(d == 2) return Direction.EAST;
-        else if(d == 4) return Direction.SOUTH;
+        if(d == 1) return Direction.NORTH;
+        else if(d == 2) return Direction.SOUTH;
+        else if(d == 3) return Direction.EAST;
         else return Direction.WEST;
     }
 

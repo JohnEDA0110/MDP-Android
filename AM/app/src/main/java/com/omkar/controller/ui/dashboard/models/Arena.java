@@ -430,13 +430,13 @@ public class Arena {
     public int convertDirectionToInteger(Direction direction){
         switch (direction){
             case NORTH:
-                return 0;
-            case EAST:
-                return 2;
+                return 1;
             case SOUTH:
-                return 4;
+                return 2;
+            case EAST:
+                return 3;
             case WEST:
-                return 6;
+                return 4;
         }
         return -1;
     }
