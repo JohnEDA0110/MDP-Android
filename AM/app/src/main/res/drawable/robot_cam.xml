@@ -2,5 +2,5 @@
 <!--Black rectangle to act as an obstacle-->
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
-    <solid android:color="#0000FF" />
+    <solid android:color="#6546BA" />
 </shape>
