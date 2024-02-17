@@ -142,9 +142,11 @@ public class Arena {
         return coordinateOfObstacle[0];
     }
 
+    /**
     public void clearObstacles(){
         obstacles.clear();
     }
+    */
 
     public void addObstacleFromView(View view){
         // Get the coordinate of the view

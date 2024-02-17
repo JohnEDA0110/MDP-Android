@@ -51,6 +51,7 @@ public class DashboardFragment extends Fragment {
     private GridLayout base_layout;
     private TextView robotStatus;
     private Arena arena;
+    private Obstacle obstacle;
     private View arenaCarView;
     private View arenaObstacleView;
     private boolean afterFirstVisit = false;
@@ -119,7 +120,7 @@ public class DashboardFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 // clear all obstacles from the arena object and redraw the grid
-                arena.clearObstacles();
+                obstacle.clearObstacles();
                 arena.normalizeCellsOccupiedByRobot();
                 arena.normalizeGrid();
                 arena.clearRobot();

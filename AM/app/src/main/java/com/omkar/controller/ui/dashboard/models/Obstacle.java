@@ -31,7 +31,8 @@ public class Obstacle {
     }
 
     public static void clearObstacles(){
-        obstacles.clear();
+        obstacles = new ArrayList<Obstacle>();
+        count = 1;
     }
 
     public int getId(){
