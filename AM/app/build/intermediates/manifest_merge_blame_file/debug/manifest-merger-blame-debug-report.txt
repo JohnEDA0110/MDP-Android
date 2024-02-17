@@ -1,0 +1,153 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.omkar.controller"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="30"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:5:5-68
+11-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:5:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:6:5-74
+12-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:6:22-71
+13    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+13-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:7:5-76
+13-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+14-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:8:5-73
+14-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:8:22-70
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:9:5-81
+15-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+17-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:11:5-78
+17-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:11:22-75
+18    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+18-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:12:5-85
+18-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:12:22-82
+19
+20    <uses-feature
+20-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:14:5-16:36
+21        android:name="android.hardware.bluetooth"
+21-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:15:9-50
+22        android:required="false" />
+22-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:16:9-33
+23    <uses-feature
+23-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:17:5-19:36
+24        android:name="android.hardware.bluetooth_le"
+24-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:18:9-53
+25        android:required="false" />
+25-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:19:9-33
+26
+27    <permission
+27-->[androidx.core:core:1.9.0] C:\Users\John\.gradle\caches\transforms-3\4dcc470c0df932bcf9c885e658afe3aa\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+28        android:name="com.omkar.controller.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+28-->[androidx.core:core:1.9.0] C:\Users\John\.gradle\caches\transforms-3\4dcc470c0df932bcf9c885e658afe3aa\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+29        android:protectionLevel="signature" />
+29-->[androidx.core:core:1.9.0] C:\Users\John\.gradle\caches\transforms-3\4dcc470c0df932bcf9c885e658afe3aa\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+30
+31    <uses-permission android:name="com.omkar.controller.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+31-->[androidx.core:core:1.9.0] C:\Users\John\.gradle\caches\transforms-3\4dcc470c0df932bcf9c885e658afe3aa\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+31-->[androidx.core:core:1.9.0] C:\Users\John\.gradle\caches\transforms-3\4dcc470c0df932bcf9c885e658afe3aa\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+32
+33    <application
+33-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:21:5-49:19
+34        android:allowBackup="true"
+34-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:22:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.9.0] C:\Users\John\.gradle\caches\transforms-3\4dcc470c0df932bcf9c885e658afe3aa\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+36        android:dataExtractionRules="@xml/data_extraction_rules"
+36-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:23:9-65
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:fullBackupContent="@xml/backup_rules"
+39-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:24:9-54
+40        android:icon="@mipmap/ic_launcher"
+40-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:25:9-43
+41        android:label="@string/app_name"
+41-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:26:9-41
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:27:9-54
+43        android:supportsRtl="true"
+43-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:28:9-35
+44        android:testOnly="true"
+45        android:theme="@style/Theme.Controller" >
+45-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:29:9-48
+46        <activity
+46-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:31:9-33:40
+47            android:name="com.omkar.controller.DeviceListViewActivity"
+47-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:32:13-51
+48            android:exported="false" />
+48-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:33:13-37
+49        <activity
+49-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:34:9-36:40
+50            android:name="com.omkar.controller.MessageListViewActivity"
+50-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:35:13-52
+51            android:exported="false" />
+51-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:36:13-37
+52        <activity
+52-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:37:9-47:20
+53            android:name="com.omkar.controller.MainActivity"
+53-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:38:13-41
+54            android:exported="true"
+54-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:39:13-36
+55            android:label="@string/app_name"
+55-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:40:13-45
+56            android:screenOrientation="portrait" >
+56-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:41:13-49
+57            <intent-filter>
+57-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:42:13-46:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:43:17-69
+58-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:43:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:45:17-77
+60-->C:\Users\John\Documents\GitHub\MDP-Android\AM\app\src\main\AndroidManifest.xml:45:27-74
+61            </intent-filter>
+62        </activity>
+63
+64        <uses-library
+64-->[androidx.window:window:1.0.0] C:\Users\John\.gradle\caches\transforms-3\053a7bef7f0e2c241b3a5fa34a2ad8ba\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+65            android:name="androidx.window.extensions"
+65-->[androidx.window:window:1.0.0] C:\Users\John\.gradle\caches\transforms-3\053a7bef7f0e2c241b3a5fa34a2ad8ba\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+66            android:required="false" />
+66-->[androidx.window:window:1.0.0] C:\Users\John\.gradle\caches\transforms-3\053a7bef7f0e2c241b3a5fa34a2ad8ba\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+67        <uses-library
+67-->[androidx.window:window:1.0.0] C:\Users\John\.gradle\caches\transforms-3\053a7bef7f0e2c241b3a5fa34a2ad8ba\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+68            android:name="androidx.window.sidecar"
+68-->[androidx.window:window:1.0.0] C:\Users\John\.gradle\caches\transforms-3\053a7bef7f0e2c241b3a5fa34a2ad8ba\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+69            android:required="false" />
+69-->[androidx.window:window:1.0.0] C:\Users\John\.gradle\caches\transforms-3\053a7bef7f0e2c241b3a5fa34a2ad8ba\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+70
+71        <provider
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\John\.gradle\caches\transforms-3\11a3e1ecacfbef5adc5fc4a3fa7e98a7\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+72            android:name="androidx.startup.InitializationProvider"
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\John\.gradle\caches\transforms-3\11a3e1ecacfbef5adc5fc4a3fa7e98a7\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+73            android:authorities="com.omkar.controller.androidx-startup"
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\John\.gradle\caches\transforms-3\11a3e1ecacfbef5adc5fc4a3fa7e98a7\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+74            android:exported="false" >
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\John\.gradle\caches\transforms-3\11a3e1ecacfbef5adc5fc4a3fa7e98a7\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+75            <meta-data
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\John\.gradle\caches\transforms-3\11a3e1ecacfbef5adc5fc4a3fa7e98a7\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\John\.gradle\caches\transforms-3\11a3e1ecacfbef5adc5fc4a3fa7e98a7\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+77                android:value="androidx.startup" />
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\John\.gradle\caches\transforms-3\11a3e1ecacfbef5adc5fc4a3fa7e98a7\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+78            <meta-data
+78-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\John\.gradle\caches\transforms-3\af9eeca982c49d9c75341877582bccfc\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+79                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+79-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\John\.gradle\caches\transforms-3\af9eeca982c49d9c75341877582bccfc\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+80                android:value="androidx.startup" />
+80-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\John\.gradle\caches\transforms-3\af9eeca982c49d9c75341877582bccfc\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+81        </provider>
+82    </application>
+83
+84</manifest>

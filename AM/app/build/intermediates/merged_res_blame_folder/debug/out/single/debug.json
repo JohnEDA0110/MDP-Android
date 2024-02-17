@@ -1,0 +1,206 @@
+[
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\layout_test_meesage_dialog.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\layout\\test_meesage_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_baseline_block_24.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\baseline_block_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\layout_fragment_bluetooth.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\layout\\fragment_bluetooth.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\layout_message_list_view.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\layout\\message_list_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\layout_fragment_notifications.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\layout\\fragment_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_baseline_arrow_downward_24.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\baseline_arrow_downward_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_baseline_tap_and_play_24.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\baseline_tap_and_play_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_devices.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\devices.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_baseline_directions_car_24.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\baseline_directions_car_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_baseline_turn_slight_left_24.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\baseline_turn_slight_left_24.xml"
+    },
+    {
+        "merged": "com.omkar.controller.app-merged_res-46:/layout_fragment_dashboard.xml.flat",
+        "source": "com.omkar.controller.app-main-48:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_baseline_replay_24.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\baseline_replay_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_baseline_front_hand_24.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\baseline_front_hand_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_baseline_refresh_24.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\baseline_refresh_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_robot_cam.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\robot_cam.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_grid_cell.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\grid_cell.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\layout_device_list_view.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\layout\\device_list_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_rounded.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_baseline_play_arrow_24.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\baseline_play_arrow_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_baseline_chat_24.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\baseline_chat_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_baseline_arrow_upward_24.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\baseline_arrow_upward_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_message.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\message.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_baseline_upload_24.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\baseline_upload_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_obstacle.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\obstacle.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_robot_body.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\robot_body.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_baseline_turn_slight_right_24.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\baseline_turn_slight_right_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_baseline_bluetooth_24.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\baseline_bluetooth_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-merged_res-46:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.0\\com.omkar.controller.app-main-48:\\drawable\\ic_launcher_background.xml"
+    }
+]

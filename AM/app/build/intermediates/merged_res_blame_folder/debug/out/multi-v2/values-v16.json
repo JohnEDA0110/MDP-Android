@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.omkar.controller.app-mergeDebugResources-44:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\John\\.gradle\\caches\\transforms-3\\0e5cc9c5e86972747e0f1d8a6dbcf015\\transformed\\appcompat-1.6.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\John\\.gradle\\caches\\transforms-3\\4dcc470c0df932bcf9c885e658afe3aa\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}
