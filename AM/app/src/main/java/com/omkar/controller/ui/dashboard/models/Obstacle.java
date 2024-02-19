@@ -34,6 +34,12 @@ public class Obstacle {
         obstacles = new ArrayList<Obstacle>();
         count = 1;
     }
+    public int getCount(){
+        return count;
+    }
+    public void setCount(int count){
+        this.count = count;
+    }
 
     public int getId(){
         return id;

@@ -106,6 +106,7 @@ public class Arena {
         for(Obstacle obstacle : obstacles){
             if(obstacle.getCoordinate().getX() == x && obstacle.getCoordinate().getY() == y){
                 obstacles.remove(obstacle);
+                obstacle.setCount(obstacle.getCount()-1);
                 break;
             }
         }
