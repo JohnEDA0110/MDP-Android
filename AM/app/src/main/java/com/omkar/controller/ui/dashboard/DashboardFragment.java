@@ -120,7 +120,7 @@ public class DashboardFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 // clear all obstacles from the arena object and redraw the grid
-                obstacle.clearObstacles();
+                arena.clearObstacles();
                 arena.normalizeCellsOccupiedByRobot();
                 arena.normalizeGrid();
                 arena.clearRobot();

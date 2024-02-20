@@ -15,7 +15,7 @@ public class Obstacle {
         this.id = count++;
         this.coordinate = coordinate;
         this.direction = direction;
-        obstacles.add(this);
+        //obstacles.add(this);
     }
 
     public int getRealId(){
@@ -41,6 +41,9 @@ public class Obstacle {
         this.count = count;
     }
 
+    public static void resetCount() {
+        count = 1;
+    }
     public int getId(){
         return id;
     }

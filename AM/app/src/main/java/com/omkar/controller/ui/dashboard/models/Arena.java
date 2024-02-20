@@ -145,6 +145,7 @@ public class Arena {
 
     public void clearObstacles(){
         obstacles.clear();
+        Obstacle.resetCount();
     }
 
     public void addObstacleFromView(View view){
