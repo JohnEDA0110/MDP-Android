@@ -416,17 +416,21 @@ public class Arena {
         return false;
     }
 
-    public void clearRobot(){
-        robot.setCenter(null);
-        robot.setDirection(null);
-    }
-
     public void setRobotCenter(int x, int y){
         robot.setCenter(new Coordinate(x, y));
     }
 
     public void setRobotDirection(Direction direction){
         robot.setDirection(direction);
+    }
+
+    public void clearRobot(){
+        robot.setCenter(null);
+        robot.setDirection(null);
+        if (robot.getCenter() == null && robot.getDirection() == null) {
+            this.robotStatus.setText("Robot Status: X = nil Y = nil Facing = nil");
+        }
+
     }
 
     public int convertDirectionToInteger(Direction direction){
