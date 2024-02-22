@@ -236,7 +236,7 @@ public class DashboardFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 // send the arena object to the car
-                arena.sendMoveCommand("b");
+                arena.sendMoveCommand("r");
             }
         });
 
