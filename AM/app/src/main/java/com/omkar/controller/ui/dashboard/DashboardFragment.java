@@ -402,7 +402,7 @@ public class DashboardFragment extends Fragment {
                         ((TextView) view).setText( (j - 1) + "," + (20 - i - 1));
                         ((TextView) view).setTextColor(Color.parseColor("#D3D3D3"));
                         view.setBackgroundResource(R.drawable.grid_cell);
-                        view.getBackground().setColorFilter(Color.parseColor("#C8E0EE"), PorterDuff.Mode.DARKEN);
+                        view.getBackground().setColorFilter(Color.parseColor("#D3D3D3   "), PorterDuff.Mode.DARKEN);
                         ((TextView) view).setTextSize(10); // Should not be seen by the user
                         arena.addCellView(new Coordinate(j - 1, 20 - i - 1), view);
 
