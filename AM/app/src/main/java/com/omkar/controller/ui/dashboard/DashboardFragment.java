@@ -240,26 +240,8 @@ public class DashboardFragment extends Fragment {
             }
         });
 
-        ImageButton forwardLeftButton = binding.forwardLeft;
+        ImageButton forwardLeftButton = binding.turnLeft;
         forwardLeftButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                // send the arena object to the car
-                arena.sendMoveCommand("sl");
-            }
-        });
-
-        ImageButton forwardRightButton = binding.forwardRight;
-        forwardRightButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                // send the arena object to the car
-                arena.sendMoveCommand("sr");
-            }
-        });
-
-        ImageButton backwardLeftButton = binding.leftBackward;
-        backwardLeftButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // send the arena object to the car
@@ -267,12 +249,30 @@ public class DashboardFragment extends Fragment {
             }
         });
 
-        ImageButton backwardRightButton = binding.rightBackward;
-        backwardRightButton.setOnClickListener(new View.OnClickListener() {
+        ImageButton forwardRightButton = binding.turnRight;
+        forwardRightButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // send the arena object to the car
                 arena.sendMoveCommand("tr");
+            }
+        });
+
+        ImageButton backwardLeftButton = binding.strafeLeft;
+        backwardLeftButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // send the arena object to the car
+                arena.sendMoveCommand("sl");
+            }
+        });
+
+        ImageButton backwardRightButton = binding.strafeRight;
+        backwardRightButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // send the arena object to the car
+                arena.sendMoveCommand("sr");
             }
         });
     }
