@@ -192,7 +192,20 @@ public class DashboardFragment extends Fragment {
                 String x = value.getString("x");
                 String y = value.getString("y");
                 String direction = value.getString("d");
-                arena.renderRobot(Integer.parseInt(x), Integer.parseInt(y), getDirectionFromInteger(Integer.parseInt(direction)));
+                if(direction.equals("1"))
+                {
+                    arena.renderRobot(Integer.parseInt(x)+1, Integer.parseInt(y)+1, getDirectionFromInteger(Integer.parseInt(direction)));
+                }
+                else if(direction.equals("2"))
+                {
+                    arena.renderRobot(Integer.parseInt(x)-1, Integer.parseInt(y)-1, getDirectionFromInteger(Integer.parseInt(direction)));
+                }
+                else if(direction.equals("3"))
+                {
+                    arena.renderRobot(Integer.parseInt(x)+1, Integer.parseInt(y)-1, getDirectionFromInteger(Integer.parseInt(direction)));
+                }
+                else{
+                    arena.renderRobot(Integer.parseInt(x)-1, Integer.parseInt(y)+1, getDirectionFromInteger(Integer.parseInt(direction)));}
             } else {
                 String value = obj.getString("value");
                 if(value.endsWith("Robot is ready to move.")){
