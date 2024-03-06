@@ -239,7 +239,7 @@ public class DashboardFragment extends Fragment {
         forwardButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // send the arena object to the car
+                // send the move command to the car
                 arena.sendMoveCommand("f");
             }
         });
@@ -248,7 +248,7 @@ public class DashboardFragment extends Fragment {
         backwardButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // send the arena object to the car
+                // send the move command to the car
                 arena.sendMoveCommand("r");
             }
         });
@@ -257,7 +257,7 @@ public class DashboardFragment extends Fragment {
         forwardLeftButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // send the arena object to the car
+                // send the move command to the car
                 arena.sendMoveCommand("tl");
             }
         });
@@ -266,7 +266,7 @@ public class DashboardFragment extends Fragment {
         forwardRightButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // send the arena object to the car
+                // send the move command to the car
                 arena.sendMoveCommand("tr");
             }
         });
@@ -275,7 +275,7 @@ public class DashboardFragment extends Fragment {
         backwardLeftButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // send the arena object to the car
+                // send the move command to the car
                 arena.sendMoveCommand("sl");
             }
         });
@@ -284,7 +284,7 @@ public class DashboardFragment extends Fragment {
         backwardRightButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // send the arena object to the car
+                // send the move command to the car
                 arena.sendMoveCommand("sr");
             }
         });
