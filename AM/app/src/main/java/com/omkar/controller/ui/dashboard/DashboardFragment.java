@@ -187,7 +187,8 @@ public class DashboardFragment extends Fragment {
                 } else {
                     textToSpeech.speak("Skipping obstacle " + obstacleId, TextToSpeech.QUEUE_FLUSH, null, null);
                 }
-            } else if(cat.equals("location")){
+            }
+            /**else if(cat.equals("location")){
                 JSONObject value = obj.getJSONObject("value");
                 String x = value.getString("x");
                 String y = value.getString("y");
@@ -206,7 +207,8 @@ public class DashboardFragment extends Fragment {
                 }
                 else{
                     arena.renderRobot(Integer.parseInt(x)-1, Integer.parseInt(y)+1, getDirectionFromInteger(Integer.parseInt(direction)));}
-            } else {
+            }*/
+             else {
                 String value = obj.getString("value");
                 if(value.endsWith("Robot is ready to move.")){
                     textToSpeech.speak("Robot is ready to move", TextToSpeech.QUEUE_FLUSH, null, null);

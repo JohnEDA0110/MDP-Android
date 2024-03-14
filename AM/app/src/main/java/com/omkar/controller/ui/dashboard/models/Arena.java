@@ -307,7 +307,7 @@ public class Arena {
         robotStatus.setText("Robot Status: X = " + robot.getCenter().getX() + ", Y = " + robot.getCenter().getY() + ", Direction = " + robot.getDirection().toString());
         for(int i = x - 1; i <= x + 1; i++){
             for(int j = y - 1; j <= y + 1; j++){
-                // set the color of the views in 3x3 block to red
+                // set the color of the views in 3x3 block to aero
                 View view = getViewAtCoordinate(i, j);
                 ViewGroup parent = (ViewGroup) view.getParent();
                 if(parent != null){
