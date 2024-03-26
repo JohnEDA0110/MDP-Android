@@ -161,7 +161,7 @@ public class DashboardFragment extends Fragment {
                 arena.setMode(0);
             }
         });
-
+  
         RadioButton exploration = root.findViewById(R.id.radio_fastestCar);
         exploration.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -188,7 +188,7 @@ public class DashboardFragment extends Fragment {
                     textToSpeech.speak("Skipping obstacle " + obstacleId, TextToSpeech.QUEUE_FLUSH, null, null);
                 }
             }
-            /**else if(cat.equals("location")){
+            else if(cat.equals("location")){
                 JSONObject value = obj.getJSONObject("value");
                 String x = value.getString("x");
                 String y = value.getString("y");
@@ -207,7 +207,7 @@ public class DashboardFragment extends Fragment {
                 }
                 else{
                     arena.renderRobot(Integer.parseInt(x)-1, Integer.parseInt(y)+1, getDirectionFromInteger(Integer.parseInt(direction)));}
-            }*/
+            }
              else {
                 String value = obj.getString("value");
                 if(value.endsWith("Robot is ready to move.")){
